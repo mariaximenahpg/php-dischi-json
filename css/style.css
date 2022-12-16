@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ header{
+    display: flex;
+    background-color: #031320;
+    padding: 30px 0;
+ }
+
+ .header-container{
+    max-width: 1200px;
+    margin-left: 45px;
+ }
+
+ #logo-spotify{
+    max-width: 80px;
+    margin: 0 auto;
+ }
+
+ main{
+    background-color: #182e3d;
+    padding: 50px 0;
+    font-family: 'Lato', sans-serif;
+ }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ .card-container{
+    display: flex;
+    width: calc(100%/3 - 80px);
+    justify-content: center;
+    margin-bottom: 30px;
+ }
+.card{
+    color: white;
+    background-color: #0c2131;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card-image{
+    width: 300px;
+    height: auto;
+}
+
+.card-image img{
+    max-width: 100%;
+    margin-bottom: 45px;
+ }
+
+h4{
+    margin: 10px 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
